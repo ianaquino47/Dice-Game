@@ -16,10 +16,7 @@ init();
 document.querySelector('.btn-roll').addEventListener('click', function() {
     if (gamePlaying) {
         let dice1 = Math.floor(Math.random() * 6) + 1;
-        console.log(dice1);
         let dice2 = Math.floor(Math.random() * 6) + 1;
-        console.log(dice2);
-        console.log('________________________')
 
         document.getElementById('dice-1').style.display = 'block';
         document.getElementById('dice-2').style.display = 'block';
